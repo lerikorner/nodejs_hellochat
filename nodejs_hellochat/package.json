@@ -1,0 +1,9 @@
+{
+  "name": "nodejs_hellochat",
+  "version": "0.0.0",
+  "description": "nodejs_hellochat",
+  "main": "server.js",
+  "author": {
+    "name": "samar"
+  }
+}

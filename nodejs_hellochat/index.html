@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="http://0.0.0.0:3000/socket.io/socket.io.js"></script>
+    <script src="http://0.0.0.0/js/bootstrap.js"></script>
+    <script src="http://0.0.0.0/js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://0.0.0.0/css/bootstrap.css">
+    <script>
+      <!-- Добавим чуть позже -->
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="span2">
+        <ul id="people" class="unstyled"></ul>
+      </div>
+      <div class="span4">
+        <ul id="msgs" class="unstyled">
+      </div>
+    </div>
+    <div class="row">
+      <div class="span5 offset2" id="login">
+        <form class="form-inline">
+          <input type="text" class="input-small" placeholder="Ваше имя" id="name">
+          <input type="button" name="join" id="join" value="Присоединиться" class="btn btn-primary">
+        </form>
+      </div>
+
+      <div class="span5 offset2" id="chat">
+        <form id="2" class="form-inline">
+          <input type="text" class="input" placeholder="Ваше сообщение" id="msg">
+          <input type="button" name="send" id="send" value="Отправить" class="btn btn-success">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
